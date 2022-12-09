@@ -14,8 +14,7 @@
 	<div class="container">
 		<div class="content center">
 			<!-- put new button: Add Student -->
-			<input class="btn-add" type="button" value="Add Candidate"
-				onclick="window.location.href='add-candidate-form.html'; return false;" />
+			
 			<table class="table-content center">
 				<tr>
 					<th>First Name</th>
@@ -52,6 +51,8 @@
 					</tr>
 				</c:forEach>
 			</table>
+                        <input class="btn-add" type="button" value="Add Candidate"
+				onclick="window.location.href='add-candidate-form.html'; return false;" />
 		</div>
 		<script type="text/javascript" src="scripts-js/app.js"></script>
 	</div>

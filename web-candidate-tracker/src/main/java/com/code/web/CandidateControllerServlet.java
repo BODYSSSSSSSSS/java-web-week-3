@@ -173,7 +173,6 @@ public class CandidateControllerServlet extends HttpServlet {
             System.out.println(c);
         }
 
-        candidates.add(new Candidate(999, "Name", "LastName", "Email", "Phone", "Department", "Degree"));
         // add students to the request
         request.setAttribute("LISTA_CANDIDATOS", candidates);
 
