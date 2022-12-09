@@ -3,15 +3,24 @@
 	padding: 0px;
 }
 
+.title-page {
+	text-align: center;
+	font-size: 40px;
+	color: #0A1931;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container {
-	background-image: url(fondo.jpeg);
+	background-image: url(fondo.jpg);
 	background-size: cover;
+	height: 100vh;
 }
 
 .container-title {
-	background-image: linear-gradient(to right, #122942, #145f8b);
-	width: 100vw;
-	height: 10vh;
+	width: 100%;
+	background: #FFC947;
+	height: 5vh;
+	padding: 20px;
 }
 
 .title-app {
@@ -38,7 +47,8 @@
 .form {
 	width: 50%;
 	border: 1px solid black;
-	background: rgba(0,0,0,0.5);
+	background: rgba(10, 25, 49, 0.9);
+	margin: 50px auto;;
 }
 
 label {
@@ -85,13 +95,21 @@ input {
 	border: 1px solid #047ED8;
 }
 
+.container-back {
+	background: red;
+	width: 48%;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 1px solid #666;
+}
+
 .btn-back {
 	font-weight: bold;
 	font-size: 20px;
 	width: 50%;
 	color: white;
-}
-
-.btn-back:hover {
-	color: red;
+	text-decoration: none;
 }

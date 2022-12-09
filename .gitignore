@@ -3,6 +3,8 @@
 *.classpath
 *.project
 web-candidate-tracker/.gitignore
+.metadata/
+spring-hibernate-customer/target/m2e-wtp/web-resources/.gitignore
 
 # Log file
 *.log
